@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 addExpression("*",false);
                 break;
             case R.id.division:
-                addExpression(".",false);
+                addExpression("/",false);
                 break;
         }
     }
